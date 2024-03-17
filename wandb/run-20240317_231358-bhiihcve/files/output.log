@@ -1,0 +1,37 @@
+Number of Hidden Layers: 5
+Layer Sizes: [784, 128, 128, 128, 128, 128, 10]
+Number of Epochs: 5
+Learning Rate: 0.001
+Optimizer: nadam
+Batch Size: 32
+Activation Function: relu
+Loss Function: squared_error
+Output Activation Funtion: softmax
+Initializer: random
+ =============== Epoch Number: 1 ===============
+
+  2%|██▍                                                                                                                                           | 926/54000 [00:05<04:47, 184.30it/s]
+Traceback (most recent call last):
+  File "/home/abinash/Documents/ADSA/Assign2/main.py", line 105, in <module>
+    main(args)
+  File "/home/abinash/Documents/ADSA/Assign2/main.py", line 93, in main
+    network.train(x_train, y_train, x_val, y_val)
+  File "/home/abinash/Documents/ADSA/Assign2/FeedForwardNN.py", line 570, in train
+    self.do_nadam(x_train, y_train, x_val, y_val)
+  File "/home/abinash/Documents/ADSA/Assign2/FeedForwardNN.py", line 518, in do_nadam
+    current_gradients = self.backwardPropagation(y, activations, pre_activations)
+  File "/home/abinash/Documents/ADSA/Assign2/FeedForwardNN.py", line 128, in backwardPropagation
+    gradients['h' + str(k-1)] = np.dot(self.parameters['W' + str(k)].T, gradients['a' + str(k)])
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/abinash/Documents/ADSA/Assign2/main.py", line 105, in <module>
+    main(args)
+  File "/home/abinash/Documents/ADSA/Assign2/main.py", line 93, in main
+    network.train(x_train, y_train, x_val, y_val)
+  File "/home/abinash/Documents/ADSA/Assign2/FeedForwardNN.py", line 570, in train
+    self.do_nadam(x_train, y_train, x_val, y_val)
+  File "/home/abinash/Documents/ADSA/Assign2/FeedForwardNN.py", line 518, in do_nadam
+    current_gradients = self.backwardPropagation(y, activations, pre_activations)
+  File "/home/abinash/Documents/ADSA/Assign2/FeedForwardNN.py", line 128, in backwardPropagation
+    gradients['h' + str(k-1)] = np.dot(self.parameters['W' + str(k)].T, gradients['a' + str(k)])
+KeyboardInterrupt

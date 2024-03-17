@@ -1,0 +1,26 @@
+2024-03-17 23:13:58,528 INFO    MainThread:224439 [wandb_setup.py:_flush():76] Current SDK version is 0.16.4
+2024-03-17 23:13:58,528 INFO    MainThread:224439 [wandb_setup.py:_flush():76] Configure stats pid to 224439
+2024-03-17 23:13:58,528 INFO    MainThread:224439 [wandb_setup.py:_flush():76] Loading settings from /home/abinash/.config/wandb/settings
+2024-03-17 23:13:58,528 INFO    MainThread:224439 [wandb_setup.py:_flush():76] Loading settings from /home/abinash/Documents/ADSA/Assign2/wandb/settings
+2024-03-17 23:13:58,528 INFO    MainThread:224439 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-03-17 23:13:58,528 INFO    MainThread:224439 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-03-17 23:13:58,528 INFO    MainThread:224439 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program_abspath': '/home/abinash/Documents/ADSA/Assign2/main.py', 'program': '/home/abinash/Documents/ADSA/Assign2/main.py'}
+2024-03-17 23:13:58,529 INFO    MainThread:224439 [wandb_init.py:_log_setup():526] Logging user logs to /home/abinash/Documents/ADSA/Assign2/wandb/run-20240317_231358-bhiihcve/logs/debug.log
+2024-03-17 23:13:58,529 INFO    MainThread:224439 [wandb_init.py:_log_setup():527] Logging internal logs to /home/abinash/Documents/ADSA/Assign2/wandb/run-20240317_231358-bhiihcve/logs/debug-internal.log
+2024-03-17 23:13:58,529 INFO    MainThread:224439 [wandb_init.py:init():566] calling init triggers
+2024-03-17 23:13:58,529 INFO    MainThread:224439 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {'batch_size': 32, 'l_rate': 0.001, 'optimizer': 'nadam', 'epochs': 5, 'activation': 'relu', 'initializer': 'random', 'loss': 'squared_error', 'n_hlayers': 5, 'hlayer_size': 128}
+2024-03-17 23:13:58,529 INFO    MainThread:224439 [wandb_init.py:init():616] starting backend
+2024-03-17 23:13:58,529 INFO    MainThread:224439 [wandb_init.py:init():620] setting up manager
+2024-03-17 23:13:58,530 INFO    MainThread:224439 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-03-17 23:13:58,532 INFO    MainThread:224439 [wandb_init.py:init():628] backend started and connected
+2024-03-17 23:13:58,535 INFO    MainThread:224439 [wandb_init.py:init():720] updated telemetry
+2024-03-17 23:13:58,535 INFO    MainThread:224439 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-03-17 23:13:59,585 INFO    MainThread:224439 [wandb_run.py:_on_init():2263] communicating current version
+2024-03-17 23:13:59,763 INFO    MainThread:224439 [wandb_run.py:_on_init():2272] got version response 
+2024-03-17 23:13:59,764 INFO    MainThread:224439 [wandb_init.py:init():804] starting run threads in backend
+2024-03-17 23:14:00,596 INFO    MainThread:224439 [wandb_run.py:_console_start():2242] atexit reg
+2024-03-17 23:14:00,596 INFO    MainThread:224439 [wandb_run.py:_redirect():2097] redirect: wrap_raw
+2024-03-17 23:14:00,596 INFO    MainThread:224439 [wandb_run.py:_redirect():2162] Wrapping output streams.
+2024-03-17 23:14:00,596 INFO    MainThread:224439 [wandb_run.py:_redirect():2187] Redirects installed.
+2024-03-17 23:14:00,597 INFO    MainThread:224439 [wandb_init.py:init():847] run started, returning control to user process

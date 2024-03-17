@@ -1,0 +1,34 @@
+
+  1%|▊                                                                                                                                             | 317/54000 [00:01<04:26, 201.61it/s]
+Number of Hidden Layers: 5
+Layer Sizes: [784, 128, 128, 128, 128, 128, 10]
+Number of Epochs: 5
+Learning Rate: 0.001
+Optimizer: nadam
+Batch Size: 32
+Activation Function: relu
+Loss Function: squared_error
+Output Activation Funtion: softmax
+Initializer: random
+
+  1%|█▌                                                                                                                                            | 614/54000 [00:03<05:32, 160.39it/s]
+Traceback (most recent call last):
+  File "/home/abinash/Documents/ADSA/Assign2/main.py", line 105, in <module>
+    main(args)
+  File "/home/abinash/Documents/ADSA/Assign2/main.py", line 93, in main
+    network.train(x_train, y_train, x_val, y_val)
+  File "/home/abinash/Documents/ADSA/Assign2/FeedForwardNN.py", line 570, in train
+    self.do_nadam(x_train, y_train, x_val, y_val)
+  File "/home/abinash/Documents/ADSA/Assign2/FeedForwardNN.py", line 522, in do_nadam
+    grads[key] = grads[key] + current_gradients[key]
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/abinash/Documents/ADSA/Assign2/main.py", line 105, in <module>
+    main(args)
+  File "/home/abinash/Documents/ADSA/Assign2/main.py", line 93, in main
+    network.train(x_train, y_train, x_val, y_val)
+  File "/home/abinash/Documents/ADSA/Assign2/FeedForwardNN.py", line 570, in train
+    self.do_nadam(x_train, y_train, x_val, y_val)
+  File "/home/abinash/Documents/ADSA/Assign2/FeedForwardNN.py", line 522, in do_nadam
+    grads[key] = grads[key] + current_gradients[key]
+KeyboardInterrupt

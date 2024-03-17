@@ -1,0 +1,93 @@
+{
+    "os": "Linux-6.5.0-25-generic-x86_64-with-glibc2.35",
+    "python": "3.10.12",
+    "heartbeatAt": "2024-03-17T17:41:50.081456",
+    "startedAt": "2024-03-17T17:41:42.279656",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--optimizer",
+        "nadam",
+        "--epochs",
+        "5",
+        "--l_rate",
+        "0.001",
+        "--batch_size",
+        "32",
+        "--loss",
+        "squared_error",
+        "--activation",
+        "relu",
+        "--n_hlayers",
+        "5",
+        "--hlayer_size",
+        "128",
+        "--initializer",
+        "random"
+    ],
+    "state": "running",
+    "program": "/home/abinash/Documents/ADSA/Assign2/main.py",
+    "codePathLocal": "main.py",
+    "codePath": "main.py",
+    "host": "abinash-Inspiron-5570",
+    "username": "abinash",
+    "executable": "/usr/bin/python3",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 3396.7767499999995,
+        "min": 400.0,
+        "max": 3400.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3400.64,
+            "min": 400.0,
+            "max": 3400.0
+        },
+        {
+            "current": 3402.446,
+            "min": 400.0,
+            "max": 3400.0
+        },
+        {
+            "current": 3399.996,
+            "min": 400.0,
+            "max": 3400.0
+        },
+        {
+            "current": 3399.996,
+            "min": 400.0,
+            "max": 3400.0
+        },
+        {
+            "current": 3399.574,
+            "min": 400.0,
+            "max": 3400.0
+        },
+        {
+            "current": 3400.556,
+            "min": 400.0,
+            "max": 3400.0
+        },
+        {
+            "current": 3401.888,
+            "min": 400.0,
+            "max": 3400.0
+        },
+        {
+            "current": 3400.028,
+            "min": 400.0,
+            "max": 3400.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 456.8854446411133,
+            "used": 78.15495300292969
+        }
+    },
+    "memory": {
+        "total": 7.645015716552734
+    }
+}

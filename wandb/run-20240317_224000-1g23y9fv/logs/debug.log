@@ -1,0 +1,28 @@
+2024-03-17 22:40:00,145 INFO    MainThread:210347 [wandb_setup.py:_flush():76] Current SDK version is 0.16.4
+2024-03-17 22:40:00,145 INFO    MainThread:210347 [wandb_setup.py:_flush():76] Configure stats pid to 210347
+2024-03-17 22:40:00,145 INFO    MainThread:210347 [wandb_setup.py:_flush():76] Loading settings from /home/abinash/.config/wandb/settings
+2024-03-17 22:40:00,145 INFO    MainThread:210347 [wandb_setup.py:_flush():76] Loading settings from /home/abinash/Documents/ADSA/Assign2/wandb/settings
+2024-03-17 22:40:00,145 INFO    MainThread:210347 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-03-17 22:40:00,145 INFO    MainThread:210347 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-03-17 22:40:00,145 INFO    MainThread:210347 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program_abspath': '/home/abinash/Documents/ADSA/Assign2/main.py', 'program': '/home/abinash/Documents/ADSA/Assign2/main.py'}
+2024-03-17 22:40:00,146 INFO    MainThread:210347 [wandb_init.py:_log_setup():526] Logging user logs to /home/abinash/Documents/ADSA/Assign2/wandb/run-20240317_224000-1g23y9fv/logs/debug.log
+2024-03-17 22:40:00,146 INFO    MainThread:210347 [wandb_init.py:_log_setup():527] Logging internal logs to /home/abinash/Documents/ADSA/Assign2/wandb/run-20240317_224000-1g23y9fv/logs/debug-internal.log
+2024-03-17 22:40:00,146 INFO    MainThread:210347 [wandb_init.py:init():566] calling init triggers
+2024-03-17 22:40:00,146 INFO    MainThread:210347 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {'batch_size': 32, 'l_rate': 0.001, 'optimizer': 'nadam', 'epochs': 5, 'activation': 'relu', 'initializer': 'random', 'loss': 'squared_error', 'n_hlayers': 5, 'hlayer_size': 128}
+2024-03-17 22:40:00,146 INFO    MainThread:210347 [wandb_init.py:init():616] starting backend
+2024-03-17 22:40:00,146 INFO    MainThread:210347 [wandb_init.py:init():620] setting up manager
+2024-03-17 22:40:00,147 INFO    MainThread:210347 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-03-17 22:40:00,149 INFO    MainThread:210347 [wandb_init.py:init():628] backend started and connected
+2024-03-17 22:40:00,151 INFO    MainThread:210347 [wandb_init.py:init():720] updated telemetry
+2024-03-17 22:40:00,152 INFO    MainThread:210347 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-03-17 22:40:00,986 INFO    MainThread:210347 [wandb_run.py:_on_init():2263] communicating current version
+2024-03-17 22:40:01,441 INFO    MainThread:210347 [wandb_run.py:_on_init():2272] got version response 
+2024-03-17 22:40:01,441 INFO    MainThread:210347 [wandb_init.py:init():804] starting run threads in backend
+2024-03-17 22:40:02,143 INFO    MainThread:210347 [wandb_run.py:_console_start():2242] atexit reg
+2024-03-17 22:40:02,144 INFO    MainThread:210347 [wandb_run.py:_redirect():2097] redirect: wrap_raw
+2024-03-17 22:40:02,144 INFO    MainThread:210347 [wandb_run.py:_redirect():2162] Wrapping output streams.
+2024-03-17 22:40:02,144 INFO    MainThread:210347 [wandb_run.py:_redirect():2187] Redirects installed.
+2024-03-17 22:40:02,145 INFO    MainThread:210347 [wandb_init.py:init():847] run started, returning control to user process
+2024-03-17 22:58:55,149 INFO    MainThread:210347 [wandb_run.py:_config_callback():1344] config_cb ('_wandb', 'viz', 'confusion_matrix') {'id': 'wandb/confusion_matrix/v1', 'historyFieldSettings': {'x-axis': '_step', 'key': 'confusion_matrix'}} None
+2024-03-17 22:59:22,267 WARNING MsgRouterThr:210347 [router.py:message_loop():77] message_loop has been closed
